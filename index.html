@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horsepool Implementation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container-sm py-5 d-flex justify-content-center">
+      <div class="w-50 d-flex flex-column">
+        <!-- Title -->
+        <h3 class="mb-4">Implementation Horspool Algorithm</h3>
+
+        <!-- Input & Search Bar -->
+        <div class="input-group mb-3">
+          <input
+            id="search-input"
+            type="text"
+            class="form-control"
+            placeholder="Let's filter the data!"
+            aria-label="Let's filter the data!"
+            aria-describedby="button-search"
+          />
+          <button class="btn btn-primary" type="button" id="search-button">
+            Search
+          </button>
+        </div>
+
+        <div id="container-card"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./script/data.js"></script>
+  <script src="./script/render.js"></script>
+  <script src="./script/horspool.js"></script>
+  <script src="./script/main.js"></script>
+</html>
